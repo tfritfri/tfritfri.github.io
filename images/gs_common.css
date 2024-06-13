@@ -1,0 +1,159 @@
+﻿/*全局重置*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}
+body{margin:0 auto;}
+html{height:100%}
+
+/*全局样式*/
+a{color:#039;cursor:pointer;text-decoration:none}
+a:hover{text-decoration:underline;color:#f60}
+a:active,a:focus{outline:none}
+table{ border-collapse:separate;border-spacing:0;word-break: break-all;}
+BODY{color: Black;FONT:12px Verdana,Arial,Helvetica,sans-serif;}/*全局字体样式*/  
+strong{font-weight:bold;color:#333}
+h1,h2,h3,h4,h5,h6{color:#222;font-weight:bold}
+p{padding:5px 0 10px 0;}
+caption,th,td{text-align:left;font-weight:normal}
+
+/*全局共用样式*/
+.hide{display:none;}
+.margin-right5{margin-right:5px;}
+.hitShow{background-color:#ebf8fc;width:100%;margin-bottom:10px}/*突出,抢眼模块显示样式--蓝背景 */
+.w25{width:25px;}
+.w50{width:50px;}
+.w75{width:75px;}
+.w150{width:150px;}
+.w170{width:170px;}
+.w200{width:200px}
+.w300{width:300px}
+.w250{width:250px}
+.w100{width:100px}
+.w500{width:500px}
+.w550{width:550px}
+
+/*整体布局*/
+.top{width:100%;}
+.content{width:100%;height:auto;overflow: hidden;margin-top:10px} 
+.left1{width: 200px;height:auto;float:left;padding-bottom: 2000px;margin-bottom: -2000px;background-color: #EFEFEF;border: 1px solid #C3CED5;border-width: 0px 1px 1px 0px;}
+.left1-border{   position:relative; width:201px; height:1px; background-color:#C3CED5;}
+.right1{ width:auto; margin: 0px 10px -2000px 210px; padding: 10px 0px 2000px 0px;  }
+.foot{width: 100%;position: relative;top: 10px;clear: both;color: #000;padding: 10px 0px;border-top: 2px solid #0F6099;   background-color: #EFEFEF;}
+ 
+
+
+/* 公共按钮*/
+.buttonorange{background-image:url(/images/button/bbk_red.gif);background-color:#ffffff;height:22px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 30px !important;cursor:pointer}
+.buttonMain{background-image:url(/images/button/bbk_main.gif);background-color:#ffffff;height:22px;font-size:12px;border:#585A67 1px solid;cursor:pointer;padding:0 10px 0 30px !important}
+.buttonCancel_01{background-image:url(/images/button/bbk_delete.png);background-color:#ffffff;height:25px;font-size:12px;border:#585A67 1px solid;cursor:pointer;padding:0 10px 0 30px !important;color:#FFFFFF}
+.buttonSubmit_01{background-image:url(/images/button/bbk_submit.png);background-color:#ffffff;height:25px;font-size:12px;border:#585A67 1px solid;cursor:pointer;padding:0 10px 0 30px !important;color:#FFFFFF}
+.buttonoNext_01{background-image:url(/images/button/bbk_general.png);background-color:#ffffff;height:25px;font-size:12px;border:#666666 1px solid;cursor:pointer;padding:0 10px 0 30px !important;color:#FFFFFF}
+.buttonoSearch_01{background-image:url(/images/button/bbk_query.png);background-color:#ffffff;height:25px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 30px !important;cursor:pointer;color:#FFFFFF}
+.buttonoSearch_02{background-image:url(/images/button/bbk_query_22px.png);background-color:#ffffff;height:22px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 30px !important;cursor:pointer;color:#FFFFFF}
+.buttonoSearch_03{background-image:url(/images/button/bbk_query_22px_b.png);background-color:#ffffff;height:22px;font-size:12px;border:#414141 1px solid;padding:0 10px 0 30px !important;cursor:pointer;color:#de421a}
+.buttonoAdd_01{background-image:url(/images/button/bbk_add.png);background-color:#ffffff;height:25px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 30px !important;cursor:pointer;color:#FFFFFF}
+.buttonoEdit_01{background-image:url(/images/button/bbk_edit.png);background-color:#ffffff;height:25px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 30px !important;cursor:pointer;color:#FFFFFF}
+.buttonoUpdate_01{background-image:url(/images/button/bbk_update.png);background-color:#ffffff;height:25px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 30px !important;cursor:pointer;color:#FFFFFF}
+.buttongreen{background-image:url(/images/button/bbk_green.gif);background-color:#ffffff;height:22px;font-size:12px;border:#666666 1px solid;cursor:pointer;padding:0 10px 0 30px !important}
+.buttonred{background-image:url(/images/button/bbk_yinse.gif);background-color:#ffffff;height:22px;font-size:12px;border:#666666 1px solid;cursor:pointer;padding:0 10px 0 30px !important}
+.button_01{background-image:url(/images/button/bbk_blue.png);background-color:#ffffff;height:20px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 10px !important;cursor:pointer;color:#FFFFFF}
+.button_02{background-image:url(/images/button/bbk.gif);background-color:#ffffff;height:18px;font-size:12px;border:#666666 1px solid;padding:0 10px 0 10px !important;cursor:pointer}
+
+
+/*头部*/
+#top{position:relative;font-size:12px;text-align:right;top:8px;right:20px}
+.white{font-family:"宋体";font-size:12px;color:#FFFFFF}
+.gray{font-family:"宋体";font-size:12px;color:#BDBCBC}
+
+/*头部导航*/
+#nav{height:36px;width:70%; float:left;background: url('/images/image/navbg01.png')}
+#TopNavBottom{clear:both;width:100%; border-bottom: 2px solid #4472b4;padding-top:5px}
+#nav ul{margin:0 0 0 10px;padding:0px;line-height:36px;width:96%}
+#nav li{list-style-type: none;text-align: center;float: left;}
+#nav li a{text-decoration: none;color: #414141;font-weight: bolder;font-size: 13px;display: inline-block;padding: 0px 25px;min-width: 50px;text-align: center;}
+/*#nav li:after{content:""; float:right;   width:2px; height:36px; background: url('/images/image/nav-split.png');}*/+
+#nav li:last-child:after{background: none; }
+#nav li a.selected{background-color:#4472B4;color:#fff;}
+.search{background: url('/images/image/navbg01.png');width:30%;height:36px;float:left}
+.position{text-indent:20px;font-size:12px;position:relative;top:8px}
+
+
+
+/*侧栏导航*/
+.glossymenu{}
+.glossymenu img{top:-3px;border:0 none}
+.glossymenu a{color: #000; }
+.glossymenu a.menuitem{ color:#FFF;display:block;position:relative;width:auto;padding:8px 0 0;padding-left:7px;text-decoration:none;height:25px;background-color: #4472B4; }
+.glossymenu a.menuitem:hover{color:#FFF}
+.glossymenu a.menuitem .statusicon1{position:absolute;top:5px;left:5px;border:none;display:block;height:15px;width:15px;background-repeat:no-repeat;cursor:pointer}
+.glossymenu a.menuitem .statusicon1:hover{}
+.glossymenu a.menuitem .statusicon2{position:absolute;top:5px;left:5px;border:none;display:block;height:15px;width:15px;background-repeat:no-repeat;cursor:pointer}
+.glossymenu a.menuitem .statusicon2:hover{}
+.glossymenu a.menuitem  img{ position: relative; top: 2px; left: 0px; padding-right: 2px;}
+.glossymenu a.menuitem span.menutxt{ font-weight: bolder; text-align: left;padding-left: 25px;background: url('/images/image/xtb01.png') no-repeat 5px center;}
+.glossymenu a.menuitem.selected span.menutxt{} 
+.glossymenu div.submenu{background-color: #EFEFEF;}
+.glossymenu div.submenu ul{list-style-type:none;margin:0;padding:0}
+.glossymenu div.submenu ul li a{line-height: 34px;font-size: 12px; text-decoration: none;padding: 3px 0 0 8px;background: url(/images/image/xtb02.png) no-repeat left 71%;margin-left: 22px;}
+.glossymenu div.submenu ul li a:link{}
+.glossymenu div.submenu ul li a:visited{}
+.glossymenu div.submenu ul li a:hover{}
+.glossymenu div.submenu ul li a:active{}
+.glossymenu div.submenu ul li a.current{color:#000}
+.glossymenu div.submenu ul li.LeftLinkSelected{  background-color: #d8e7f1;}
+.glossymenu div.submenu ul li.LeftLinkSelected a{color:#0F6099;}
+
+.submenuBottom{display: block;height:10px;background-color: #EFEFEF;}
+
+/*右边页面*/
+.content-box {border: 1px solid #ccc;margin: 0 0 5px 0;background: #fff;}
+.content-box-header {background: #e5e5e5 ;margin-top: 1px;height: 40px;padding-left: -15px;}
+.content-box-header h3 {padding: 12px 15px 10px;float: left;}
+ul.content-box-tabs {float: right;padding: 12px 15px 0 0 !important;margin: 0 !important;}
+ul.content-box-tabs li {float: left;margin: 0;padding: 0 !important;background-image: none !important}
+ul.content-box-tabs li a {color: #333;padding: 8px 10px;display: block;margin: 1px;border-bottom: 0;}
+ul.content-box-tabs li a:hover {color: #57a000;}              
+ul.content-box-tabs li a.current {background: #fff;border: 1px solid #ccc;border-bottom: 0;margin: 0;}
+.content-box-content {padding: 20px;font-size: 13px;border-top: 1px solid #ccc}	
+.content-div {padding-left: 15px;}
+
+
+
+/*分页样式*/
+DIV.ReachIT_Pagination{PADDING-RIGHT:3px;PADDING-LEFT:3px;FONT-SIZE:0.85em;PADDING-BOTTOM:3px;MARGIN:3px;PADDING-TOP:3px;FONT-FAMILY:Tahoma,Helvetica,sans-serif;TEXT-ALIGN:center}
+DIV.ReachIT_Pagination A{BORDER-RIGHT:#ccdbe4 1px solid;PADDING-RIGHT:8px;BACKGROUND-POSITION:50% bottom;BORDER-TOP:#ccdbe4 1px solid;PADDING-LEFT:8px;PADDING-BOTTOM:2px;BORDER-LEFT:#ccdbe4 1px solid;COLOR:#0061de;MARGIN-RIGHT:3px;PADDING-TOP:2px;BORDER-BOTTOM:#ccdbe4 1px solid;TEXT-DECORATION:none}
+DIV.ReachIT_Pagination A:hover{ text-decoration:none; BORDER-RIGHT:#2b55af 1px solid;BORDER-TOP:#2b55af 1px solid;BACKGROUND-IMAGE:none;BORDER-LEFT:#2b55af 1px solid;COLOR:#fff;BORDER-BOTTOM:#2b55af 1px solid;BACKGROUND-COLOR:#3666d4}
+DIV.ReachIT_Pagination A:active{BORDER-RIGHT:#2b55af 1px solid;BORDER-TOP:#2b55af 1px solid;BACKGROUND-IMAGE:none;BORDER-LEFT:#2b55af 1px solid;COLOR:#fff;BORDER-BOTTOM:#2b55af 1px solid;BACKGROUND-COLOR:#3666d4}
+DIV.ReachIT_Pagination SPAN.current{PADDING-RIGHT:6px;PADDING-LEFT:6px;FONT-WEIGHT:bold;PADDING-BOTTOM:2px;COLOR:#000;MARGIN-RIGHT:3px;PADDING-TOP:2px}
+DIV.ReachIT_Pagination SPAN.disabled{DISPLAY:none}
+DIV.ReachIT_Pagination A.next{BORDER-RIGHT:#ccdbe4 2px solid;BORDER-TOP:#ccdbe4 2px solid;MARGIN:0px 0px 0px 10px;BORDER-LEFT:#ccdbe4 2px solid;BORDER-BOTTOM:#ccdbe4 2px solid}
+DIV.ReachIT_Pagination A.next:hover{BORDER-RIGHT:#2b55af 2px solid;BORDER-TOP:#2b55af 2px solid;BORDER-LEFT:#2b55af 2px solid;BORDER-BOTTOM:#2b55af 2px solid}
+DIV.ReachIT_Pagination A.prev{BORDER-RIGHT:#ccdbe4 2px solid;BORDER-TOP:#ccdbe4 2px solid;MARGIN:0px 10px 0px 0px;BORDER-LEFT:#ccdbe4 2px solid;BORDER-BOTTOM:#ccdbe4 2px solid}
+DIV.ReachIT_Pagination A.prev:hover{BORDER-RIGHT:#2b55af 2px solid;BORDER-TOP:#2b55af 2px solid;BORDER-LEFT:#2b55af 2px solid;BORDER-BOTTOM:#2b55af 2px solid}
+DIV.RITButton_1{PADDING-LEFT:5px;FONT-SIZE:13px;PADDING-BOTTOM:10px;COLOR:#313031;PADDING-TOP:10px;FONT-FAMILY:Verdana,Tahoma,Arial,Helvetica,Sans-Serif;BACKGROUND-COLOR:#fff}
+DIV.RITButton_1 A{BORDER-RIGHT:#b7d8ee 1px solid;PADDING-RIGHT:6px;BORDER-TOP:#b7d8ee 1px solid;PADDING-LEFT:5px;PADDING-BOTTOM:4px;MARGIN:0px 3px;BORDER-LEFT:#b7d8ee 1px solid;COLOR:#0030ce;PADDING-TOP:5px;BORDER-BOTTOM:#b7d8ee 1px solid;TEXT-DECORATION:none}
+DIV.RITButton_1 A:hover{BORDER-RIGHT:#b7d8ee 1px solid;BORDER-TOP:#b7d8ee 1px solid;BORDER-LEFT:#b7d8ee 1px solid;COLOR:#0066a7;BORDER-BOTTOM:#b7d8ee 1px solid;BACKGROUND-COLOR:#d2eaf6}
+
+
+/* 快捷功能显示样式*/
+.Quick{line-height:20px;position: absolute; right:0px;right: 0px;top: 39px;}
+.Quick ul{list-style:none;float:right}
+.Quick li{float:left;margin:2px 5px}
+.QuickBtn{line-height:20px;height:30px;padding:2px 5px;border:1px solid #D8D8D7;background:#e1edfd;color:#001e57;font-weight:bold;margin-bottom:10px}
+
+
+
+
+/*高级搜索项折叠样式*/
+.SearchFold_Down{width: 22px;height: 22px;cursor: pointer;}
+.SearchFold_Up{width: 22px;height: 22px;cursor: pointer;}
+.SearchFold_Down{background:url(/images/search_fold.png) no-repeat 0px 0px;}
+.SearchFold_Down:hover{background:url(/images/search_fold.png) no-repeat 0px -22px;}
+.SearchFold_Up{background:url(/images/search_fold.png) no-repeat 0px -44px;}
+.SearchFold_Up:hover{background:url(/images/search_fold.png) no-repeat 0px -66px;}
+
+/*提示框*/
+.alert { padding: 10px; margin-bottom: 10px; border: 1px solid rgba(0, 0, 0, 0); border-radius: 4px; }
+.alert-danger { color: #A94442; background-color: #F2DEDE; border-color: #EBCCD1; }
+.alert-warning { color: #8A6D3B; background-color: #FCF8E3; border-color: #FAEBCC; }
+.alert-info { color: #31708F; background-color: #D9EDF7; border-color: #BCE8F1; }
+.alert-success { color: #3C763D; background-color: #DFF0D8; border-color: #D6E9C6; }
+#div_UserInfo{display: none; width: 220px; height: 125px; background-color: #FFF;font-size: 12px; text-align: left; color: #000; line-height: 30px;border: 1px solid #C3CED5;padding-left:15px;padding-top:5px}

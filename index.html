@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0059)https://kh.tfri-rz.com/m/sh.aspx?n=2300010XF003173A0&r=DFED -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	标识查询页面
+</title><link href="./images/gs_common.css" rel="stylesheet" type="text/css"><link href="./images/table.css" rel="stylesheet" type="text/css"><link href="./images/layui.css" rel="stylesheet" type="text/css">
+    <script src="./images/jquery-1.10.2.min.js.下载" type="text/javascript"></script>
+    <script src="./images/layui.js.下载" type="text/javascript"></script>
+    <script src="./images/jquery.js.下载" type="text/javascript"></script>
+    <script src="./images/Public.js.下载" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        layui.use(['layer', 'form', 'jquery', 'table'], function () {
+            var $ = layui.jquery
+                , layer = layui.layer
+                , form = layui.form;
+            //监听提交
+            form.on('submit(btSubmit)', function (data) {
+                editUserILabelFeedBack();
+                return false;
+            });
+        });
+
+        function editUserILabelFeedBack() {
+            layer.open({
+                type: 2,
+                title: '填写投诉与建议',
+                shadeClose: false,
+                shade: 0.8,
+                area: ['50%', '50%'],
+                maxmin: true,
+                content: '/biz/iLabel/editUserILabelFeedBackInfo.aspx?iLabelID=AF47B951-8B7A-49C4-A47E-BF9AE951C4F6' //iframe的url
+            });
+        }
+    </script>
+    <style type="text/css">
+        .titbg {
+            background-color: #f2f2f2;
+            margin-top:15px;
+            border:1px solid #e6e6e6;
+        }
+
+        .proDesc{
+            border:1px solid #e6e6e6;
+            border-top:0px;
+            font-size:20px;
+        }
+
+        .bg {
+            background-color: #f9f9f9;
+            width: 20%;
+        }
+
+        .picCss {
+            width: 150px;
+            height: 150px;
+            margin-right: 10px;
+        }
+
+        .layui-timeline-title {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .layui-form-pane .layui-input-block {
+            top: 4px;
+            margin-left: 225px;
+            font-size: 20px;
+        }
+
+        .layui-form-pane .layui-form-label {
+            width: 220px;
+            font-size: 20px;
+            background-color: #F2F2F2;
+            text-align:left;
+            padding:8px 18px;
+        }
+        .layui-form-item{
+            margin-bottom:4px;
+        }
+    </style>
+<link id="layuicss-layer" rel="stylesheet" href="./images/layer.css" media="all"></head>
+<body style="" onload="getQueryParam()">
+    <form class="layui-form layui-form-pane" action="https://kh.tfri-rz.com/m/sh.aspx?n=2300010XF003163A0&amp;r=DFED">
+        <div>
+            <img src="./images/notifylogo1.png" alt="">
+        </div>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr height="40px">
+    <td width="28px" height="40px" style=" background-image:url(images/scbg1.png); background-position:center center;"></td>
+    <td width="138px"  height="40px" style="background-image:url(images/scimg.png); background-position:center center;"></td>
+    <td style="background-image:url(images/bg.jpg)">&nbsp;</td>
+  </tr>
+</table>
+        <div id="divLabelSearchDetail" style="margin: 10px; font-size: 20px">
+            <div id="myDiv">标签未添加流向信息！</div>
+        </div>       
+    </form>
+
+
+</body></html>
+    <script>
+        // 解析URL参数
+        function getQueryParam(param) {
+            var searchParams = new URLSearchParams(window.location.search);
+            return searchParams.get(param);
+        }
+ 
+        // 使用函数获取参数
+        var param1 = getQueryParam('param1');
+ 
+		var div = document.getElementById('myDiv');
+		// 设置新内容
+		div.innerHTML = param1 + div.innerHTML;
+		
+    </script>
